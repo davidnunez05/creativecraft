@@ -106,14 +106,13 @@ p {
     word-spacing: 2.6px;
     background: var(--complementary-color);
     padding: 1.4rem 0 1.4rem 0;
-    transition: all .9s ease
+    transition: all .9s ease;
 }
 
 .light-button:hover {
     color: white;
     background: rgb(255, 142, 72);
     cursor: pointer;
-    padding: 1.6rem .4rem 1.6rem .4rem;
 }
 
 @media(min-width: 768px) {
