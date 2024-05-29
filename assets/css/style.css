@@ -788,9 +788,7 @@ nav {
 }
 
 .our-approach__description span {
-    text-decoration: underline;
-    text-decoration-color: var(--complementary-color);
-    text-underline-offset: 4px
+    color: var(--complementary-color);
 }
 
 .our-approach__heading h2,
