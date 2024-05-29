@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6rem;
+    font-size: 1.9rem;
     font-weight: 800;
     color: var(--main-color)
 }
@@ -556,10 +556,20 @@ nav {
 }
 
 .about__description-wrapper ul {
+    list-style-type: none;
     font-size: .9rem;
     color: var(--neutral-color);
     line-height: 1.9rem;
     letter-spacing: 1px
+}
+
+.about__description-wrapper ul li::before {
+    content: "\2713";
+    /* Unicode character for check mark */
+    margin-right: 0.5em;
+    /* Adjust spacing between check mark and text */
+    color: green;
+    font-size: 1.6rem;
 }
 
 .about__description .underline {
@@ -569,10 +579,10 @@ nav {
     text-underline-offset: 6px
 }
 
-li::marker {
+/*li::marker {
     color: var(--main-color-light);
     font-size: 1.6rem
-}
+}*/
 
 .about__image-wrapper img {
     width: 100%;
