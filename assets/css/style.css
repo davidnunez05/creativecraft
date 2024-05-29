@@ -112,7 +112,8 @@ p {
 .light-button:hover {
     color: white;
     background: rgb(255, 142, 72);
-    cursor: pointer
+    cursor: pointer;
+    padding: 1.6rem .4rem 1.6rem .4rem;
 }
 
 @media(min-width: 768px) {
@@ -480,7 +481,7 @@ nav {
 
 @media(min-width: 1200px) {
     .hero {
-        padding: 12rem 0 26rem 0;
+        padding: 16rem 0 10rem 0;
     }
 
 
@@ -501,38 +502,43 @@ nav {
 
     .hero__img-wrapper {
         position: relative;
-       
+       padding-top: 6rem;
     }
 
     .hero__img-wrapper img {
 
-        top: 14rem;
-        width: 15%;
+        top: 30rem;
+        width: 16%;
 
     }
 
     .play__img-wrapper img {
-        margin-top: -22rem;
-        margin-left: -20rem;
+        margin-top: -10rem;
+        margin-left: 26rem;
         width: 12%;
+        opacity: 0.5;
+
     }
 
     .pen__img-wrapper img {
-        margin-top: -4rem;
+        margin-top: -10rem;
         margin-left: -30rem;
-        width: 10%
+        width: 10%;
+        
     }
 
     .person__img-wrapper img {
         margin-top: -22rem;
         margin-left: 30rem;
-        width: 8%
+        width: 8%;
+        opacity: 0.5;
     }
 
     .search__img-wrapper img {
-        margin-top: -6rem;
-        margin-left: 30rem;
-        width: 6%
+        margin-top: -26rem;
+        margin-left: 0rem;
+        width: 6%;
+        opacity: 0.5;
     }
 
     .ball__img-wrapper img {
