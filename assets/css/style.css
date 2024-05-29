@@ -717,10 +717,9 @@ nav {
 .creative-process__card-heading h3 {
     color: var(--main-color-lighter);
     font-family: "Poppins", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 1rem;
-    font-weight: 600;
     margin-bottom: -.2rem;
 }
 
