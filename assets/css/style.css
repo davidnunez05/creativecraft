@@ -76,6 +76,11 @@ p {
     }
 }
 
+.button__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .dark-button {
     all: unset;
     font-family: "Josefina Sans";
@@ -94,13 +99,13 @@ p {
     all: unset;
     font-family: "Josefina Sans";
     color: var(--main-color);
+    width: 100%;
     font-size: 1rem;
     font-weight: 800;
     text-align: center;
     letter-spacing: 1px;
     word-spacing: 2.6px;
     background: var(--complementary-color-light);
-    width: 12rem;
     padding: 1.4rem 0 1.4rem 0;
     transition: background-color .9s ease
 }
@@ -110,9 +115,10 @@ p {
     cursor: pointer
 }
 
-.button__wrapper {
-    display: flex;
-    justify-content: center
+@media(min-width: 768px) {
+    .light-button {
+        width: 20rem;
+    }
 }
 
 .text-highlighter {
@@ -334,11 +340,10 @@ nav {
     padding: 4rem 0 4rem 0
 }
 
-.hero-wrapper {
+.hero__content-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2rem
 }
 
 .hero__rotating-image-wrapper {
@@ -417,11 +422,13 @@ nav {
 
 .hero__img-wrapper {
     display: flex;
-    justify-content: center
+    justify-content: center;
+    padding-top: 3rem;
 }
 
 .hero__img-wrapper img {
-    width: 40%
+    width: 40%;
+
 }
 
 @media(max-width: 1200px) {
@@ -440,9 +447,7 @@ nav {
         padding: 6rem 0 6rem 0
     }
 
-    .hero-wrapper {
-        padding-bottom: 4rem
-    }
+    
 
     .typing-container {
         font-size: 4rem;
@@ -466,26 +471,25 @@ nav {
     .hero__rotating-image-wrapper {
         padding-bottom: 1rem
     }
-
+    .hero__img-wrapper {
+        padding-top: 4rem;
+    }
     .hero__img-wrapper img {
-        width: 30%
+        width: 30%;
     }
 }
 
 @media(min-width: 1200px) {
     .hero {
-        padding: 8rem 0 10rem 0
+        padding: 12rem 0 22rem 0;
     }
 
-    .hero-wrapper {
-        padding-bottom: 10rem
-    }
 
     .moving-object {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%)
+        transform: translate(-50%, -50%);
     }
 
     .play__img-wrapper,
@@ -498,33 +502,36 @@ nav {
 
     .hero__img-wrapper {
         position: relative;
-        padding: 10rem 0 10rem 0
+       
     }
 
     .hero__img-wrapper img {
-        width: 36%
+
+        top: 12rem;
+        width: 15%;
+
     }
 
     .play__img-wrapper img {
-        margin-top: -30rem;
-        margin-left: -34rem;
-        width: 12%
+        margin-top: -22rem;
+        margin-left: -24rem;
+        width: 12%;
     }
 
     .pen__img-wrapper img {
-        margin-top: -10rem;
+        margin-top: -6rem;
         margin-left: -26rem;
         width: 10%
     }
 
     .person__img-wrapper img {
-        margin-top: -34rem;
+        margin-top: -20rem;
         margin-left: 24rem;
         width: 8%
     }
 
     .search__img-wrapper img {
-        margin-top: -16rem;
+        margin-top: -10rem;
         margin-left: 34rem;
         width: 6%
     }
