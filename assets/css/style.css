@@ -354,13 +354,14 @@ nav {
 
 .hero__rotating-image-wrapper img {
     max-width: 100%;
-    height: auto
+    height: auto;
 }
+
 
 .rotating-image {
     width: 200px;
     height: 200px;
-    animation: rotate 2s ease-in-out forwards
+    animation: rotate 2s ease-in-out forwards;
 }
 
 @keyframes rotate {
@@ -481,7 +482,7 @@ nav {
 
 @media(min-width: 1200px) {
     .hero {
-        padding: 16rem 0 10rem 0;
+        padding: 6rem 0 10rem 0;
     }
 
 
