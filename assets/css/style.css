@@ -560,7 +560,9 @@ nav {
     font-size: .9rem;
     color: var(--neutral-color);
     line-height: 1.9rem;
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    padding-top: 1rem;
+    
 }
 
 .about__description-wrapper ul li::before {
@@ -579,10 +581,7 @@ nav {
     text-underline-offset: 6px
 }
 
-/*li::marker {
-    color: var(--main-color-light);
-    font-size: 1.6rem
-}*/
+
 
 .about__image-wrapper img {
     width: 100%;
