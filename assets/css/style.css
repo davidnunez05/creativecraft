@@ -337,7 +337,7 @@ nav {
 
 .hero {
     background: #5822d0;
-    padding: 2rem 0 2rem 0
+    padding: 4rem 0 4rem 0
 }
 
 .hero__content-wrapper {
@@ -423,7 +423,7 @@ nav {
 .hero__img-wrapper {
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .hero__img-wrapper img {
