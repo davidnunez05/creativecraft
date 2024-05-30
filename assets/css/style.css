@@ -337,7 +337,7 @@ nav {
 
 .hero {
     background: #5822d0;
-    padding: 2rem 0 4rem 0
+    padding: 2rem 0 2rem 0
 }
 
 .hero__content-wrapper {
@@ -423,7 +423,7 @@ nav {
 .hero__img-wrapper {
     display: flex;
     justify-content: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .hero__img-wrapper img {
@@ -444,7 +444,7 @@ nav {
 
 @media(min-width: 768px) {
     .hero {
-        padding: 4rem 0 6rem 0
+        padding: 4rem 0 4rem 0
     }
 
     
@@ -481,7 +481,7 @@ nav {
 
 @media(min-width: 1200px) {
     .hero {
-        padding: 10rem 0 10rem 0;
+        padding: 12rem 0 10rem 0;
     }
 
 
@@ -501,44 +501,39 @@ nav {
     }
 
     .hero__img-wrapper {
-        position: relative;
        padding-top: 6rem;
     }
 
     .hero__img-wrapper img {
 
-        top: 30rem;
         width: 16%;
 
     }
 
     .play__img-wrapper img {
-        margin-top: -10rem;
-        margin-left: 26rem;
-        width: 12%;
-        opacity: 0.5;
+        margin-top: -24rem;
+        margin-left: -26rem;
+        width: 7%;
 
     }
 
     .pen__img-wrapper img {
-        margin-top: -10rem;
+        margin-top: -8rem;
         margin-left: -30rem;
-        width: 10%;
+        width: 6%;
         
     }
 
     .person__img-wrapper img {
         margin-top: -22rem;
-        margin-left: 30rem;
-        width: 8%;
-        opacity: 0.5;
+        margin-left: 20rem;
+        width: 6%;
     }
 
     .search__img-wrapper img {
-        margin-top: -26rem;
-        margin-left: 0rem;
-        width: 6%;
-        opacity: 0.5;
+        margin-top: -6rem;
+        margin-left: 30rem;
+        width: 4%;
     }
 
     .ball__img-wrapper img {
