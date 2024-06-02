@@ -12,14 +12,14 @@ html {
     --complementary-color-light: #ffa671ff;
     --complementary-color-lighter: #ffc7a4ff;
     --neutral-color: rgb(60, 60, 60);
-    --neutral-color-lighter: #f3f3f3ff
+    --neutral-color-lighter: #f3f3f3ff;
 }
 
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: var(--neutral-color-lighter)
+    background-color: var(--neutral-color-lighter);
 }
 
 h1,
@@ -630,7 +630,6 @@ nav {
 
 @media only screen and (min-width: 768px) {
     .about {
-        background: linear-gradient(94deg, rgb(222, 206, 255) 0%, #f3f3f3 100%);
         padding: 6rem 0 4rem 0
     }
 
@@ -811,19 +810,17 @@ nav {
 
 .our-approach {
     display: flex;
+    position: relative;
     flex-direction: column;
-    background-color: var(--main-color);
-    padding: 2rem 0 2rem 0
+    padding: 2rem 0 2rem 0;
+    
 }
 
 .our-approach__description span {
     color: var(--complementary-color);
 }
 
-.our-approach__heading h2,
-.our-approach__description p {
-    color: var(--main-color-lighter)
-}
+
 
 .our-approach__content-wrapper {
     padding-bottom: 4rem
@@ -831,11 +828,10 @@ nav {
 
 .our-approach__img-wrapper {
     display: flex;
-    justify-content: center
 }
 
 .our-approach__img-wrapper img {
-    width: 60%
+    width: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -848,19 +844,12 @@ nav {
     }
 
     .our-approach__heading {
-        width: 60%;
+        flex: 6;
         margin-top: -2.4rem
     }
 
     .our-approach__description {
-        width: 40%
-    }
-
-    .our-approach__platforms-wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        width: 60%
+        flex: 4;
     }
 }
 
@@ -869,8 +858,9 @@ nav {
         padding: 6rem 0 8rem 0
     }
 
+    
     .our-approach__heading {
-        margin-top: -3.6rem
+        margin-top: -3.6rem;
     }
 }
 
