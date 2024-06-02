@@ -434,7 +434,7 @@ nav {
 .decoration {
     display: flex;
     flex-wrap: nowrap;
-    width: 100%;
+    width: auto;
 }
 
 .decoration div {
