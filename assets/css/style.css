@@ -576,7 +576,7 @@ nav {
 }
 
 .person-icon__wrapper img {
-    width: 4rem;
+    width: 15%;
 }
 
 
@@ -648,7 +648,7 @@ nav {
     }
 
     .person-icon__wrapper img {
-        padding-left: 10rem;
+
     }
 
     .about__description-wrapper {
