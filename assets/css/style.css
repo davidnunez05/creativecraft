@@ -575,6 +575,9 @@ nav {
     display: flex;
 }
 
+.person-icon__wrapper img {
+    width: 4rem;
+}
 
 
 .about-wrapper {
