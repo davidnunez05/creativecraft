@@ -433,6 +433,7 @@ nav {
 
 .decoration {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .decoration div {
