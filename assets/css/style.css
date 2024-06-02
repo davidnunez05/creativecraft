@@ -439,7 +439,7 @@ nav {
 
 .decoration div {
     height: 10px;
-    min-width: 36%;
+    flex: 1;
 }
 
 .color-one {
