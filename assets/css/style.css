@@ -143,17 +143,17 @@ header {
 
 @media only screen and (min-width: 992px) {
     .content-width {
-        max-width: 75%;
+        max-width: 70%;
         margin: 0 auto
     }
 }
 
-@media only screen and (min-width: 1200px) {
+/*@media only screen and (min-width: 1200px) {
     .content-width {
-        max-width: 992px;
+        max-width: 75%;
         margin: 0 auto
     }
-}
+}*/
 
 nav {
     padding-bottom: .6rem
@@ -374,11 +374,11 @@ nav {
 }
 
 .typing-container {
-    color: var(--main-color-lighter);
+    color: var(--main-color-light);
     position: relative;
     font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 1rem
+    font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 #cursor {
@@ -408,7 +408,7 @@ nav {
 }
 
 .highlight {
-    background-color: var(--main-color-light)
+    background-color: var(--main-color-lighter)
 }
 
 .hero__description {
@@ -431,6 +431,27 @@ nav {
 
 }
 
+.decoration {
+    display: flex;
+}
+
+.decoration div {
+    height: 10px;
+    min-width: 36%;
+}
+
+.color-one {
+    background: rgb(156, 156, 156);
+}
+
+
+.color-two {
+    background: var(--complementary-color);
+}
+
+.color-three {
+    background: rgb(190, 74, 252);
+}
 @media(max-width: 1200px) {
 
     .play__img-wrapper,
@@ -447,7 +468,7 @@ nav {
         padding: 6rem 0 6rem 0;
     }
 
-    
+
 
     .typing-container {
         font-size: 4rem;
@@ -463,16 +484,14 @@ nav {
         width: 60%;
     }
 
-    .hero__description p {
-        text-align: start
-    }
-
     .hero__rotating-image-wrapper {
         padding-bottom: 1rem
     }
+
     .hero__img-wrapper {
         padding-top: 4rem;
     }
+
     .hero__img-wrapper img {
         width: 30%;
     }
@@ -500,11 +519,11 @@ nav {
     }
 
     .hero__img-wrapper {
-       padding-top: 6rem;
+        padding-top: 6rem;
     }
 
     .hero__img-wrapper img {
-        width: 16%;
+        width: 30%;
     }
 
     .play__img-wrapper img {
@@ -518,7 +537,7 @@ nav {
         margin-top: -8rem;
         margin-left: -30rem;
         width: 6%;
-        
+
     }
 
     .person__img-wrapper img {
@@ -549,10 +568,17 @@ nav {
     color: var(--complementary-color)
 }
 
+.person-icon__wrapper {
+    display: flex;
+}
+
+.person-icon__wrapper img {
+    padding-left: 10rem;
+}
+
 .about-wrapper {
     display: flex;
     flex-direction: column;
-    padding-bottom: 1rem
 }
 
 .about__description {
@@ -570,7 +596,7 @@ nav {
     line-height: 1.9rem;
     letter-spacing: 1px;
     padding-top: 1rem;
-    
+
 }
 
 .about__description-wrapper ul li::before {
@@ -607,33 +633,34 @@ nav {
 
     .about-wrapper {
         flex-direction: row;
-        padding-bottom: 4rem
+        justify-content: space-between;
+        align-items: baseline;
+        padding-bottom: 2rem;
     }
 
     .about__heading {
-        margin-top: -2.2rem;
-        width: 50%;
-    }
-
-    .about__heading h2 {
-        padding-bottom: 4rem
+        width: 60%;
     }
 
     .about__description-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: end;
-        width: 50%
+        width: 40%;
+        padding-bottom: 2rem;
+
     }
 
     .about__decoration-wrapper {
         display: flex;
-        justify-content: center
+        justify-content: center;
+        position: relative;
     }
 
     .about__decoration-wrapper img {
-        width: 30%;
-        padding-right: 4rem
+        position: absolute;
+        width: 14%;
+        right: 6rem;
     }
 }
 
@@ -654,25 +681,19 @@ nav {
         margin-top: -40rem
     }
 
-    .about-wrapper {
-        padding-bottom: 8rem
-    }
 
-    .about__heading {
-        width: 60%;
-        margin-top: -3.4rem;
-    }
+
 
     .about__description-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: end;
-        width: 40%;
     }
 
     .about__decoration-wrapper img {
-        width: 26%;
-        padding-right: 4rem
+        width: 10%;
+        right: 20rem;
+
     }
 }
 
@@ -770,7 +791,7 @@ nav {
         line-height: 1.6rem
     }
 
-    
+
 }
 
 .our-approach {
