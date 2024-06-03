@@ -577,7 +577,7 @@ nav {
 }
 
 .person-icon__wrapper img {
-    width: 15%;
+    width: 20%;
 }
 
 
@@ -649,7 +649,13 @@ nav {
     }
 
     
-    
+    .person-icon__wrapper {
+        padding-right: 6rem;
+    } 
+
+    .person-icon__wrapper img {
+        width: 26%;
+    } 
 
     .about__description-wrapper {
         display: flex;
@@ -702,7 +708,7 @@ nav {
     }
 
     .person-icon__wrapper {
-        padding-right: 6rem;
+        padding-right: 10rem;
     } 
 
     .about__description-wrapper {
