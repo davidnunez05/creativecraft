@@ -567,8 +567,8 @@ nav {
     padding: 1rem 0 1rem 0
 }
 
-.about__heading h2 {
-    color: var(--complementary-color)
+.about__content-wrapper h2 {
+    color: var(--complementary-color);
 }
 
 .person-icon__wrapper {
@@ -630,6 +630,15 @@ nav {
     .about__decoration-wrapper {
         display: none
     }
+
+    .about__content-wrapper {
+        order: 2;
+    }
+
+    .person-icon__wrapper {
+        justify-content: start;
+        padding-top: 2rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -640,17 +649,17 @@ nav {
     .about-wrapper {
         flex-direction: row;
         justify-content: space-between;
-        align-items: baseline;
+        align-items: center;
         padding-bottom: 2rem;
     }
 
-    .about__heading {
-        flex: 6;
+    .about__content-wrapper {
+        flex: 5;
     }
 
     
     .person-icon__wrapper {
-        padding-right: 6rem;
+        flex: 5;
     } 
 
     .person-icon__wrapper img {
@@ -707,15 +716,18 @@ nav {
         top: 5rem;
     }
 
+    .about__content-wrapper {
+        flex: 4;
+    }
+
+    
     .person-icon__wrapper {
-        padding-right: 10rem;
+        flex: 6 ;
     } 
 
-    .about__description-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-    }
+    
+
+    
 
     .about__decoration-wrapper img {
         width: 10%;
