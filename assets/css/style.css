@@ -1008,6 +1008,9 @@ nav {
 }
 
 @media only screen and (max-width: 768px) {
+    .web-technologies__header p {
+        width: 100%;
+    }
     .frameworks__description {
         order: 1;
     }
