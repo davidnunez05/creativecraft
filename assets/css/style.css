@@ -45,7 +45,8 @@ h2 {
 h3 {
     font-size: 1.1rem;
     font-weight: 800;
-    color: var(--main-color)
+    letter-spacing: 2px;
+    color: var(--main-color);
 }
 
 p {
@@ -844,7 +845,7 @@ nav {
         content: "CREATIVITY";
         writing-mode: vertical-rl;
         text-orientation: mixed;
-        color: #7937ff;
+        color: rgb(255, 201, 167);
         font-size: 2rem;
         right: .6rem;
         font-weight: 600;
@@ -989,7 +990,7 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    width: 40%;
+    width: 80%;
 }
 
 .responsive-design__img-wrapper img {
@@ -1041,7 +1042,7 @@ nav {
     }
 
     .responsive-design__img-wrapper img {
-        width: 60%;
+        width: 100%;
     }
     
     .frameworks {
@@ -1083,7 +1084,7 @@ nav {
     }
     
     .responsive-design__img-wrapper img {
-        width: 40%;
+        width: 80%;
     }
     .frameworks__img-wrapper {
         flex: 2;
