@@ -1230,7 +1230,7 @@ footer {
     flex-direction: column;
     align-items: center;
     background: var(--main-color);
-    padding: 2rem 0 4rem 0
+    padding: 2rem 0 0 0
 }
 
 footer h3 {
@@ -1275,7 +1275,7 @@ footer p {
 
 @media only screen and (min-width: 768px) {
     footer {
-        padding: 4rem 0 2rem 0
+        padding: 4rem 0 0 0
     }
 
     footer h3 {
