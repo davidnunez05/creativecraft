@@ -927,6 +927,42 @@ nav {
     }
 }
 
+.services-wrapper {
+
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.services__img-container {
+    width: 80%;
+    padding-bottom: .6rem;
+}
+
+.services__img-container img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .services {
+        flex-direction: row;
+        padding-top: 6rem;
+    }
+
+    .services__img-container {
+        padding-right: 1.4rem;
+    }
+
+    .services__img-container img {
+        width: 100%;
+    }
+}
+
 .web-technologies {
     background: var(--main-color);
     padding: 2rem 0 2rem 0;
