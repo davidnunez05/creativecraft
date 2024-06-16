@@ -55,6 +55,9 @@ p {
     letter-spacing: 1px;
     line-height: 1.4rem
 }
+.creative-process-button {
+    width: 100%;
+}
 
 @media only screen and (min-width: 768px) {
     h2 {
@@ -739,7 +742,7 @@ nav {
     flex-direction: column;
     align-items: center;
     position: relative;
-    background: #5822d0;
+    background: rgb(255, 235, 223);
     padding: 2rem 0 2rem 0;
 }
 
@@ -750,20 +753,21 @@ nav {
 }
 
 .creative-process__heading h2 {
-    color: var(--main-color-lighter);
+    color: var(--main-color);
     text-align: center;
     margin-bottom: -.4rem;
 }
 
 .creative-process__heading h2 span {
     color: var(--complementary-color);
-    background-color: white;
 }
 
 .creative-process__heading p {
     color: var(--main-color-light);
     text-align: center;
 }
+
+
 
 .creative-process__cards-wrapper {
     padding: 2rem 0 2rem 0
@@ -776,7 +780,7 @@ nav {
 }
 
 .creative-process__card-heading h3 {
-    color: var(--main-color-lighter);
+    color: var(--main-color);
     font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -786,16 +790,15 @@ nav {
 }
 
 .creative-process-icon {
-    width: 4rem;
+    width: 5rem;
     padding: .9rem;
-    border: solid var(--main-color-light) 1px;
+    fill: white;
     border-radius: 1rem;
-    background: #692bf7ff;
-    box-shadow: 5px 5px 10px rgb(66, 17, 172);
+    background: var(--complementary-color);
 }
 
 .creative-process__card p {
-    color: var(--main-color-lighter)
+    color: var(--neutral-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -827,7 +830,9 @@ nav {
     .creative-process {
         padding: 6rem 0 6rem 0
     }
-
+    .creative-process__card-heading h3 {
+        font-size: 1.1rem;
+    }
     .creative-process::after {
         position: absolute;
         content: "CREATIVITY";
@@ -840,13 +845,11 @@ nav {
         margin-top: -30rem
     }
 
-    /*.creative-process__cards-wrapper {
+    .creative-process__cards-wrapper {
         padding: 4rem 4rem 4rem 4rem;
-        background-color: #692bf7ff;
-        border: solid var(--main-color-light) 1px;
+        background-color: white;
         border-radius: 1rem;
-        box-shadow: 5px 5px 10px rgb(66, 17, 172);
-    }*/
+    }
 
     .creative-process__card {
         grid-column: span 4
