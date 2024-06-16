@@ -782,6 +782,7 @@ nav {
     font-style: normal;
     font-size: 1rem;
     margin-bottom: -.2rem;
+    word-spacing: .4rem;
 }
 
 .creative-process-icon {
@@ -839,13 +840,13 @@ nav {
         margin-top: -30rem
     }
 
-    .creative-process__cards-wrapper {
+    /*.creative-process__cards-wrapper {
         padding: 4rem 4rem 4rem 4rem;
         background-color: #692bf7ff;
         border: solid var(--main-color-light) 1px;
         border-radius: 1rem;
         box-shadow: 5px 5px 10px rgb(66, 17, 172);
-    }
+    }*/
 
     .creative-process__card {
         grid-column: span 4
