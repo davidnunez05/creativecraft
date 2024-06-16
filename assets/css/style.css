@@ -927,6 +927,36 @@ nav {
     }
 }
 
+.services-banner {
+    background: var(--main-color);
+}
+
+.services-banner__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0 2rem 0;
+}
+
+.services-banner__wrapper img {
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .services-banner__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .services-banner__wrapper img {
+        margin-right: 1rem;
+    }
+
+}
+
+
 .web-technologies {
     background: var(--main-color);
     padding: 2rem 0 2rem 0;
